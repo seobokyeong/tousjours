@@ -75,12 +75,6 @@ p {
 .item_01 {
   background-image: url('../images/slide_01.jpg');
 }
-.item_02 {
-  background-image: url('../images/slide_02.jpg');
-}
-.item_03 {
-  background-image: url('../images/slide_03.jpg');
-}
 
 .slick-slider button {
   display: none !important;
@@ -128,11 +122,17 @@ p {
 }
 
 .sun {
-  font-size: 20px;
+  /* font-size: 20px; */
+  width: 20px;
+  height: 20px;
   color: var(--accent);
   margin: 2rem;
   opacity: 0;
   animation: rotate 0.5s 1s forwards;
+}
+
+.sun_main {
+  width: 35%;
 }
 
 .sub_text h3 {
@@ -256,9 +256,14 @@ header {
   border-right: none;
   cursor: pointer;
   padding: 0 3px;
+  transition: all 0.3s;
 }
 
 .sub_nav li:hover {
+  background: var(--green);
+}
+
+.sub_nav li.on {
   background: var(--green);
 }
 
@@ -606,7 +611,6 @@ footer h4 {
 }
 
 .footer_info .sun {
-  margin: 3rem 0;
 }
 
 .footer_info img {
@@ -617,6 +621,7 @@ footer h4 {
 .footer_info p {
   width: 80%;
   margin: 0 auto;
+  padding-top: 4rem;
 }
 
 .go_top {
@@ -679,6 +684,10 @@ footer h4 {
   right: 10px;
   font-size: 2.6rem;
   color: var(--accent);
+}
+
+.xi-mail {
+  color: #ba835a;
 }
 
 /* 미디어쿼리 */
@@ -916,6 +925,11 @@ footer h4 {
 
   .logo {
     width: 134px;
+  }
+
+  .sun_main {
+    width: 20px;
+    height: 20px;
   }
 }
 
