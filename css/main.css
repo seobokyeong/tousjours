@@ -52,7 +52,7 @@ h4 {
 }
 
 p {
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -286,7 +286,7 @@ header {
 }
 
 .btn {
-  font-size: 1.2rem;
+  font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
   color: var(--accent);
@@ -327,10 +327,10 @@ header {
 }
 
 .photos img {
-  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.05);
 }
 
 .photos .img {
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.05);
   position: relative;
   transition: all 0.3s;
   overflow: hidden;
@@ -482,11 +482,11 @@ header {
   position: absolute;
   top: 78%;
   left: 0;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .card_01_text {
-  background: #f7f0da;
+  background: url(../images/cake_bg.jpg) no-repeat center / cover;
   width: 50%;
   padding-left: 20px;
   padding-top: 30px;
@@ -661,7 +661,7 @@ footer h4 {
 .social_list a {
   display: block;
   padding: 1rem 2rem;
-  font-size: 2rem;
+  font-size: 30px;
 }
 
 .email form {
@@ -791,7 +791,7 @@ footer h4 {
 
   .card_01 img {
     height: 370px;
-    margin-left: 62px;
+    margin-right: 62px;
     width: 35%;
   }
 
